@@ -45,6 +45,14 @@ body{
     color: #ffc600;
   }
 
+button{
+    display:none;
+    background-color: brown;
+    color:white;
+    padding:10px;
+    margin:10px;
+}
+
 .playing{
     transform:scale(1.02);
     box-shadow: 10px 0 10px 0 yellow;
@@ -59,6 +67,10 @@ body{
         text-align: justify;
         font-size:25px;
     }
+
+    button{
+        display:block;
+    }
 }
 
 @media screen and (min-width:301px) and (max-width:400px){
@@ -70,6 +82,10 @@ body{
     .header{
         text-align: justify;
         font-size:30px;
+    }
+
+    button{
+        display:block;
     }
 
 }
@@ -86,6 +102,9 @@ body{
         font-size:35px;
     }
 
+    button{
+        display:block;
+    }
 }
 
 @media screen and (min-width:501px) and (max-width:750px){
@@ -96,6 +115,10 @@ body{
     .header{
         text-align: justify;
         font-size:50px;
+    }
+
+    button{
+        display:block;
     }
 }
 
@@ -110,6 +133,10 @@ body{
 
     .header{
         font-size:50px;
+    }
+
+    button{
+        display:block;
     }
 }
 
