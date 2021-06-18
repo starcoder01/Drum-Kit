@@ -16,10 +16,40 @@ function playSound(e) {
 const keys = Array.from(document.querySelectorAll('.key'));
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 window.addEventListener('keydown', playSound);
-window.addEventListener('click', playSound);
 
 
 window.addEventListener('click',function(){
   alert("Press the keys to experience this wonderful drum kit !");
-  console.log(2);
 });
+
+function fun1(){
+  document.getElementsByTagName("audio")[0].play();
+}
+
+function fun2(){
+  document.getElementsByTagName("audio")[1].play();
+}
+
+function fun3(){
+  document.getElementsByTagName("audio")[2].play();
+}
+
+function fun4(){
+  document.getElementsByTagName("audio")[3].play();
+}
+
+function fun5(){
+  document.getElementsByTagName("audio")[4].play();
+}
+
+function fun6(){
+  document.getElementsByTagName("audio")[5].play();
+}
+
+function fun7(){
+  document.getElementsByTagName("audio")[6].play();
+}
+
+function fun8(){
+  document.getElementsByTagName("audio")[7].play();
+}
